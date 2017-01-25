@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestPack.MyUpload">
+      <class name="TestPack.CSV100Upload2">
         <methods>
-          <include name="mtBet"/>
           <include name="applicationLogin"/>
+          <include name="afterMet"/>
+          <include name="beforMet"/>
         </methods>
-      </class> <!-- TestPack.MyUpload -->
+      </class> <!-- TestPack.CSV100Upload2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
